@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <metam name="author" content="João Pedro Spinda">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculando IMC</title>
+
+
+</head>
+    <header>
+        <figure>
+            <img src="image/imc.png" alt="logo" title="Meu logo">
+        </figure>
+
+        <h1>Calculando o IMC</h1>
+    </header>
+<body>
+    <main>
+        <section class="contato">
+            <form action="/" method="post" id="formulario">
+                <label for="peso">Peso</label>
+                <input type="text" id="peso" name="peso" placeholder="Insira seu Peso">
+
+                <label for="altura">Altura</label>
+                <input type="text" id="altura" name="altura" placeholder="Insira sua Altura">
+
+                <button type="submit" onclick="calculate()">Calcular</button>
+                <button type="reset">Limpar</button>
+            </form>
+            <textarea name="" id="text_area" rows="10"></textarea>
+        </section>
+
+        <aside>
+            <figure>
+                <img src="image/tbimc.png" alt="tabela" title="Tabela IMC">
+            </figure>
+
+            <section></section>
+        </aside>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+<footer>
+    <p>Made by João Pedro Spinda &copy;</p>
+</footer>
+</html>
